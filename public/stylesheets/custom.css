@@ -1,0 +1,28 @@
+#site-nav {
+width:960px;
+margin:0 auto;
+}
+
+#content {
+width: 960px;
+margin:0 auto;
+}
+
+#button {
+-webkit-background-clip: padding-box;
+-webkit-box-shadow: rgba(255, 255, 255, 0.0976563) 0px 1px 0px inset, rgba(0, 0, 0, 0.796875) 0px 1px 3px;
+background: #E4740B;
+background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EF971B), to(#E16307));
+border-bottom-left-radius: 5px 5px;
+border-bottom-right-radius:5px 5px;
+border-top-left-radius: 5px 5px;
+border-top-right-radius:5px 5px;
+color:white;
+display:inline;
+float:left;
+font-size:20px;
+font-weight:600;
+height:40px;
+padding:0px 25px;
+text-shadow: rgba(0, 0, 0, 0.796875) 0px -1px 0px;
+}

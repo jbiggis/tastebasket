@@ -1,0 +1,10 @@
+<html>
+<body>
+
+<p>Dear <%= subscriber.name %>, </p>
+<p>Thank you for signing up for the private trial.  As we are limiting this trial to 50 people to ensure quality of service, if you are chosen we will contact you by email.</p>
+<p>Sincerely,</p>
+<p>The TasteBasket Team</p>
+</body>
+</html>
+

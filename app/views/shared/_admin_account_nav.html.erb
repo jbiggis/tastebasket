@@ -1,0 +1,8 @@
+<div id="admin-account-nav" class="round">  
+	<% if admin_signed_in? %>
+	<span class="greeting">Hi <%= current_admin.email %>! </span> 
+	<%= link_to "Admin panel", "/admin/home", :class => "nav-link" %>
+       	<%= link_to "Sign out", destroy_admin_session_path, :class => "nav-link" %>	
+	<% end %>
+
+    </div>  
