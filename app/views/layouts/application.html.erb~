@@ -25,8 +25,7 @@
 		<header>
 	<%= image_tag 'logo.png', :class => 'logo' %>
 
-	<%= render 'shared/site_nav' %>
-	</header>
+
 		<%= yield %>
 	</div>
 
