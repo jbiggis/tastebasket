@@ -12,8 +12,8 @@
   <%= csrf_meta_tag %>
 
 
-<meta property="og:title" content="YOmama" />
-<meta property="og:description" content="Big ass description" />
+<meta property="og:title" content="TasteBasket" />
+<meta property="og:description" content="Description" />
 <meta property="og:image" content="http://seeker401.files.wordpress.com/2009/12/ninja-kitten-defeats-dog-with-google-search-skills-always.jpg" />
 
 

@@ -1,4 +1,4 @@
-	<%= render 'shared/site_nav' %>
+	<%= render 'shared/site_nav_home' %>
 </header>
 
 

@@ -24,7 +24,7 @@
 	<div id ="content">
 		<header>
 			<%= image_tag 'logo.png', :class => 'logo' %>
-			<%= render 'shared/site_nav_home' %>
+			<%= render 'shared/site_nav_how_it_works' %>
 		</header>
 		<div id='container-top'></div>
 		

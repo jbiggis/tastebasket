@@ -59,18 +59,18 @@ div.field, div.actions {
   list-style: square;
 }
 
-footer {
+#footer {
 height:80px;
 width:960px;
 margin:10px auto 10px auto;
 text-align:center;
 }
 
-footer a, footer a:visited, footer a:hover {
+#footer a, #footer a:visited, #footer a:hover {
 color: #993;
 }
 
-footer ul {
+#footer ul {
 list-style:none;
 height:20px;
 width:500px;
@@ -80,7 +80,7 @@ font-size:12px;
 
 }
 
-footer li {
+#footer li {
 float:left;
 margin-right:10px;
 color:#993;
