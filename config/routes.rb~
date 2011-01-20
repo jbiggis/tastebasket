@@ -5,11 +5,23 @@ Tastebasket::Application.routes.draw do
 
   get "public/home"
 
-  get "/how_it_works" => 'public#how_it_works', :as => :how_it_works
+  get "/how-it-works" => 'public#how_it_works', :as => :how_it_works
 
-  get "public/recent_baskets" => public#recent_baskets, :as => :recent_baskets
+  get "public/recent-baskets" => 'public#recent_baskets', :as => :recent_baskets
 
-  get '/thank_you' => 'public#thank_you', :as => :thank_you
+  get '/thank-you' => 'public#thank_you', :as => :thank_you
+
+  get '/about-us' => 'public#about_us', :as => :about_us
+
+  get '/privacy-policy' => 'public#privacy_policy', :as => :privacy_policy
+
+  get "/faq" => 'public#faq', :as => :faq
+  
+  get '/shipping-and-returns' => 'public#shipping_and_returns', :as => :shipping_returns
+
+  get "contact-us" => 'public#recent_baskets', :as => :contact_us
+
+
 
 match '/subscriptions/new' => 'subscriptions#new'
 

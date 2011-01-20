@@ -1,0 +1,28 @@
+#hiw-first-tab {
+float:left;
+height:46px;
+width:180px;
+background: url('../images/tb-tab-normal.png') no-repeat;
+}
+
+#hiw-second-tab {
+float:left;
+height:49px;
+width:180px;
+background: url('../images/hiw-tab-active.png') no-repeat;
+z-index:2;
+position:relative;
+}
+
+.hiw {
+width:60px;
+margin-left:auto;
+margin-right:auto;
+height:100px;
+}
+
+.hiw .request-invite-big {
+margin:20px 0 0 -85px;
+
+
+}

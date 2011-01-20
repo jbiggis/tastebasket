@@ -23,11 +23,16 @@
 	<div id="notice"><%= notice %> </div>
 	<div id ="content">
 		<header>
-	<%= image_tag 'logo.png', :class => 'logo' %>
+			<%= image_tag 'logo.png', :class => 'logo' %>
+			<%= render 'shared/site_nav_general' %>
+		</header>
+		<div id='container-top'></div>
+		
+		<div id='container-middle'>
+			<%= yield %>
+		</div>
 
-	<%= render 'shared/site_nav' %>
-	</header>
-		<%= yield %>
+		<div id='container-bottom'></div>
 	</div>
 
 	

@@ -1,0 +1,30 @@
+#container-top {
+background: url('../images/container-top.png') no-repeat;
+width:966px;
+height:52px;
+margin-bottom:0;
+z-index:1;
+position:relative;
+}
+
+#container-middle {
+background: url('../images/container-middle.png') repeat-y;
+width:906px;
+margin:0;
+padding:30px;
+
+}
+
+#container-middle h1{
+margin:0;
+padding:0;
+}
+
+
+#container-bottom {
+background: url('../images/container-bottom.png') repeat-y;
+width:966px;
+height:44px;
+margin-top:0;
+}
+

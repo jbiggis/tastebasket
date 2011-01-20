@@ -1,3 +1,6 @@
+	<%= render 'shared/site_nav' %>
+</header>
+
 
 <script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" 
         type="text/javascript">
@@ -28,7 +31,7 @@
 </div>
 <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4d314e7d3d35b074"></script>
 <!-- AddThis Button END -->
-<div class='fb'><%= facebook_like %></div>
+<div class='fbook'><%= facebook_like %></div>
 
 </div>
 </div>

@@ -1,15 +1,21 @@
 class PublicController < ApplicationController
+
+	layout "general", :except => [:home]
+
+
   def home
   
    respond_to do |format|
-      format.html # new.html.erb
+      format.html {render :layout => "application"}
       format.xml  { render :xml => @subscription }
       format.js { render_to_facebox }
-    
+
     end 
+    
   end
 
   def how_it_works
+	render :layout => "how-it-works"
   end
 
   def recent_baskets
@@ -19,26 +25,23 @@ class PublicController < ApplicationController
 	
   end
 
-  def company_info
-  end
-
-  def about
+  def about_us
   end
 
   def privacy_policy
   end
 
-  def contact_us
-  end
-
-  def business
-  end
-
   def faq
   end
 
-  def delivery
+  def shipping_and_returns
   end
+
+  def contact_us
+  end
+
+ 
+
 
 
 end

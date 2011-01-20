@@ -1,0 +1,11 @@
+	<footer>
+		<ul>
+			<li><%= link_to 'About Us', about_us_path %><br/>|<br/></li>
+			<li><%= link_to 'Privacy Policy', privacy_policy_path %>><br/>|<br/></li> 
+			<li><%= link_to 'FAQ', faq_path %></li>
+			<li><%= link_to 'Shipping and Returns', shipping_returns_path %></li>
+			<li><%= link_to 'Contact Us', contact_us_path %></li>
+		</ul>
+		
+		<div id='copyright'>Copyright TasteBasket Inc. 2011</div>
+	</footer> 

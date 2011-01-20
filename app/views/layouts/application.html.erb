@@ -25,15 +25,12 @@
 		<header>
 	<%= image_tag 'logo.png', :class => 'logo' %>
 
-	<%= render 'shared/site_nav' %>
-	</header>
+
 		<%= yield %>
 	</div>
-	<footer>
-		<ul>
-			<li></li>
-			<li></li>
-		</ul>
-	</footer>
+
+	
+	<%=render 'shared/footer'%>
+	
 </body>
 </html>

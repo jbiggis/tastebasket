@@ -25,15 +25,18 @@ margin-right:20px;
 float:left;
 height:49px;
 width:180px;
-background: url('../images/the-taste-basket-tab.png');
+background: url('../images/tb-tab-active.png');
 }
 
 #second-tab {
 float:left;
 height:46px;
 width:180px;
-background: url('../images/how-it-works-tab.png');
+background: url('../images/hiw-tab-normal.png');
 }
+
+
+
 
 #admin-account-nav {
 margin:0;
