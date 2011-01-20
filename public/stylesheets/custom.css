@@ -1,14 +1,172 @@
-#site-nav {
+header {
+height:80px;
 width:960px;
-margin:0 auto;
+
 }
+
+.logo {
+float:left;
+margin-left:60px;
+}
+#site-nav {
+
+float:left;
+width:360px;
+height:60px;
+margin-top:35px;
+padding-left:60px;
+}
+#site-nav a {
+margin-top:14px;
+margin-right:20px;
+}
+
+#first-tab {
+float:left;
+height:49px;
+width:180px;
+background: url('../images/the-taste-basket-tab.png');
+}
+
+#second-tab {
+float:left;
+height:46px;
+width:180px;
+background: url('../images/how-it-works-tab.png');
+}
+
+#admin-account-nav {
+margin:0;
+}
+
+#container {
+background: url('../images/background-box.png') no-repeat;
+height:604px;
+width:966px;
+
+}
+
+#box-top-half {
+height:317px;
+width:966px;
+}
+
+#top-left {
+height:317px;
+width:528px;
+float:left;
+text-align:center;
+
+}
+
+.intro-text {
+margin-top:10px;
+}
+
+.request-invite-big {
+background: url('../images/request-invite-button.png');
+width:240px;
+height:72px;
+padding-top:15px;
+text-align:center;
+margin: 4px 0 0 140px;
+float:left;
+}
+
+.request-invite-big a{
+font-size:45px;
+color:transparent;
+
+}
+
+#share {
+clear:both;
+width:300px;
+height:100px;
+float:left;
+margin:20px 0 0 60px;
+position:relative;
+}
+
+.fbook {
+position:absolute;
+left:120px;
+top:4px;
+}
+
+
+#top-right {
+height:317px;
+width:438px;
+float:left;
+
+}
+
+.food-basket {
+margin:20px 40px 0 0;
+
+}
+
+#box-bottom-half {
+height:287px;
+width:966px;
+background: url('../images/product-pics-background.png') no-repeat;
+background-position: 20px 30px;
+position:relative;
+}
+.peak {
+position:absolute;
+left:30px;
+top:0px;
+}
+
+.glasgow-cookies {
+margin:37px 0 0 41px;
+}
+
+.seeded-crisps {
+margin:37px 0 0 31px;
+
+}
+
+.karmic-krunch {
+margin:37px 0 0 31px;
+}
+
+.seventh-heaven {
+margin:37px 0 0 31px;
+}
+
+.garden-herb {
+margin:37px 0 0 31px;
+}
+
 
 #content {
 width: 960px;
 margin:0 auto;
+/*background:white;*/
+}
+#content h1, #content h2{
+color:#232323;
+font-size:52px;
+font-family:minion-pro-1;
+font-weight:500;
+font-style:normal;
+text-align:center;
+}
+#content h1 {
+margin-top:60px;
 }
 
-#button {
+#content h2 {
+font-size:24px;
+}
+
+
+
+/*
+.request-invite-big {
 -webkit-background-clip: padding-box;
 -webkit-box-shadow: rgba(255, 255, 255, 0.0976563) 0px 1px 0px inset, rgba(0, 0, 0, 0.796875) 0px 1px 3px;
 background: #E4740B;
@@ -26,3 +184,9 @@ height:40px;
 padding:0px 25px;
 text-shadow: rgba(0, 0, 0, 0.796875) 0px -1px 0px;
 }
+
+.request-invite-big a:visited
+{
+color:white;
+}
+*/

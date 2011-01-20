@@ -9,19 +9,31 @@
   <%= javascript_include_tag 'facebox' %>
   <%= stylesheet_link_tag 'facebox', :media => 'screen' %>
 
-
-
   <%= csrf_meta_tag %>
+
+
+<meta property="og:title" content="YOmama" />
+<meta property="og:description" content="Big ass description" />
+<meta property="og:image" content="http://seeker401.files.wordpress.com/2009/12/ninja-kitten-defeats-dog-with-google-search-skills-always.jpg" />
+
 
 </head>
 <body>
 
-	<%= render 'shared/admin_account_nav' %>
-
-	<%= render 'shared/site_nav' %>
 	<div id="notice"><%= notice %> </div>
 	<div id ="content">
+		<header>
+	<%= image_tag 'logo.png', :class => 'logo' %>
+
+	<%= render 'shared/site_nav' %>
+	</header>
 		<%= yield %>
 	</div>
+	<footer>
+		<ul>
+			<li></li>
+			<li></li>
+		</ul>
+	</footer>
 </body>
 </html>

@@ -7,7 +7,7 @@ Tastebasket::Application.routes.draw do
 
   get "/how_it_works" => 'public#how_it_works', :as => :how_it_works
 
-  get "public/recent_baskets" => 'public#recent_baskets, :as => :recent_baskets'
+  get "public/recent_baskets" => 'public#recent_baskets', :as => :recent_baskets
 
   get '/thank_you' => 'public#thank_you', :as => :thank_you
 

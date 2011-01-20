@@ -1,5 +1,6 @@
 <div id="site-nav" class="round">  
 
-	<%= link_to "The Taste Basket", root_path%>
-	<%= link_to "How It Works", public_how_it_works_path%>
+	<div id='1st-tab'></div>
+	<div id='2nd-tab'></div>
+
     </div>  
