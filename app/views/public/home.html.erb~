@@ -1,5 +1,5 @@
 	<%= render 'shared/site_nav_home' %>
-</header>
+</div>
 
 
 <script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" 
@@ -38,6 +38,10 @@
 
 <div id='top-right'>
 	<%= image_tag 'food-basket.png', :class => 'food-basket'%>
+	<div class='bacon-crisp'><%= image_tag 'bacon-crisp-opaque.png' %></div>
+
+
+
 </div>
 
 

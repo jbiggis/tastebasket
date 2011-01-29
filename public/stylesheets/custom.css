@@ -102,6 +102,7 @@ top:4px;
 height:317px;
 width:438px;
 float:left;
+position:relative;
 
 }
 
@@ -124,24 +125,28 @@ top:0px;
 }
 
 .glasgow-cookies {
-margin:37px 0 0 41px;
+margin:36px 0 0 40px;
+border:1px solid transparent;
 }
 
 .seeded-crisps {
-margin:37px 0 0 31px;
-
+margin:36px 0 0 30px;
+border:1px solid transparent;
 }
 
 .karmic-krunch {
-margin:37px 0 0 31px;
+margin:34px 0 0 28px;
+border:1px solid transparent;
 }
 
 .seventh-heaven {
-margin:37px 0 0 31px;
+margin:35px 0 0 29px;
+border:1px solid transparent;
 }
 
 .garden-herb {
-margin:37px 0 0 31px;
+margin:35px 0 0 29px;
+border:1px solid transparent;
 }
 
 
@@ -166,7 +171,20 @@ margin-top:60px;
 font-size:24px;
 }
 
+.bacon-crisp {
+position:absolute;
+left:54px;
+top:84px;
+width:120px;
+height:120px;
 
+
+}
+
+.bacon {
+background: url('../images/bacon-crisp-opaque.png');
+
+}
 
 /*
 .request-invite-big {
