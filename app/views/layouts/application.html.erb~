@@ -15,12 +15,26 @@
 $(document).ready(function(){
   $(".bacon-crisp").hover(function(){
 	  $(this).toggleClass("bacon");
-	  $(".seeded-crisps").css("border","1px solid 9b0002");
+	  $(".seeded-crisps").css("border","1px solid #9b0002");
 	  }, function(){
 	  $(this).toggleClass("bacon");
 	  	  $(".seeded-crisps").css("border","1px solid transparent");
   });
-});
+
+    $(".seeded-crisps").hover(function(){
+	  $(".bacon-crisps").toggleClass("bacon");
+	  $(this).css("border","1px solid #9b0002");
+	  }, function(){
+	  $(".bacon-crisps").toggleClass("bacon");
+	  	  $(this).css("border","1px solid transparent");
+  });
+
+
+
+  });
+
+
+
 </script>
 
 
