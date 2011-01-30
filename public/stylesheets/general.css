@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "arabic";
+  src: url("../fonts/arabtype.ttf");
+}
+
 #container-top {
 background: url('../images/container-top.png') no-repeat;
 width:966px;

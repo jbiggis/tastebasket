@@ -1,14 +1,21 @@
-body { background-color: #f4f1ce; color: #333;; padding-bottom:40px; margin-bottom:0;}
+body { background: url('../images/wood.png'); background-color:  #f4f1ce;color: #333;; padding-bottom:40px; margin-bottom:0;}
+/*#f4f1ce; #871E31; #290B1C; #6B0C22;*/
 
 body, p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size:   13px;
   line-height: 18px;
-  
-  
+    
 }
 
+h1, h2, h3, strong {
+font-family:arabic;
+}
 
+strong {
+font-weight:bold;
+font-size:18pt;
+}
 
 pre {
   background-color: #eee;

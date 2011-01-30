@@ -7,6 +7,8 @@
 
   <%= javascript_include_tag 'jquery-1.4.4' %>
   <%= javascript_include_tag 'facebox' %>
+  <%= javascript_include_tag 'scrollTo' %>
+    <%= javascript_include_tag 'localscroll' %>
   <%= stylesheet_link_tag 'facebox', :media => 'screen' %>
 
   <%= csrf_meta_tag %>
@@ -22,12 +24,30 @@ $(document).ready(function(){
   });
 
     $(".seeded-crisps").hover(function(){
-	  $(".bacon-crisps").toggleClass("bacon");
+	  $(".bacon-crisp").toggleClass("bacon");
 	  $(this).css("border","1px solid #9b0002");
 	  }, function(){
-	  $(".bacon-crisps").toggleClass("bacon");
+	  $(".bacon-crisp").toggleClass("bacon");
 	  	  $(this).css("border","1px solid transparent");
   });
+
+
+$('#read-more').click(function() {
+if (location.pathname.replace(/^\//,") == this.pathname.replace(/^\//,")
+&& location.hostname == this.hostname) {
+var $target = $(this.hash);
+$target = $target.length && $target
+|| $('[name=' + this.hash.slice(1) +']');
+if ($target.length) {
+var targetOffset = $target.offset().top;
+$('html,body')
+.animate({scrollTop: targetOffset}, 1000);
+return false;
+}
+}
+});
+
+
 
 
 
@@ -50,14 +70,19 @@ $(document).ready(function(){
 	<div id="notice"><%= notice %> </div>
 	<div id ="content">
 		<div id='header'>
-	<%= image_tag 'logo.png', :class => 'logo' %>
-
-
-		<%= yield %>
+			<div class="logo">THE TASTE BASKET</div>
+			<% image_tag 'logo.png', :class => 'logo' %>
+	<%= render 'shared/site_nav_home' %>
 	</div>
+	<div id='home'>
+<div id='container-top'></div>
 
-	
+<div id='container-middle'>
+<%= yield %>
+	</div>
+	<div id='container-bottom'></div>
+</div>
 	<%=render 'shared/footer'%>
-	
+</div>	
 </body>
 </html>

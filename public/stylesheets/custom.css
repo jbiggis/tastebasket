@@ -7,6 +7,13 @@ width:960px;
 .logo {
 float:left;
 margin-left:60px;
+
+
+font-family:arabic;
+font-size:48pt;
+color:black;
+
+
 }
 #site-nav {
 
@@ -42,45 +49,8 @@ background: url('../images/hiw-tab-normal.png');
 margin:0;
 }
 
-#container {
-background: url('../images/background-box.png') no-repeat;
-height:604px;
-width:966px;
 
-}
 
-#box-top-half {
-height:317px;
-width:966px;
-}
-
-#top-left {
-height:317px;
-width:528px;
-float:left;
-text-align:center;
-
-}
-
-.intro-text {
-margin-top:10px;
-}
-
-.request-invite-big {
-background: url('../images/request-invite-button.png');
-width:240px;
-height:72px;
-padding-top:15px;
-text-align:center;
-margin: 4px 0 0 140px;
-float:left;
-}
-
-.request-invite-big a{
-font-size:45px;
-color:transparent;
-
-}
 
 #share {
 clear:both;
@@ -98,56 +68,6 @@ top:4px;
 }
 
 
-#top-right {
-height:317px;
-width:438px;
-float:left;
-position:relative;
-
-}
-
-.food-basket {
-margin:20px 40px 0 0;
-
-}
-
-#box-bottom-half {
-height:287px;
-width:966px;
-background: url('../images/product-pics-background.png') no-repeat;
-background-position: 20px 30px;
-position:relative;
-}
-.peak {
-position:absolute;
-left:30px;
-top:0px;
-}
-
-.glasgow-cookies {
-margin:36px 0 0 40px;
-border:1px solid transparent;
-}
-
-.seeded-crisps {
-margin:36px 0 0 30px;
-border:1px solid transparent;
-}
-
-.karmic-krunch {
-margin:34px 0 0 28px;
-border:1px solid transparent;
-}
-
-.seventh-heaven {
-margin:35px 0 0 29px;
-border:1px solid transparent;
-}
-
-.garden-herb {
-margin:35px 0 0 29px;
-border:1px solid transparent;
-}
 
 
 #content {
@@ -185,6 +105,10 @@ height:120px;
 background: url('../images/bacon-crisp-opaque.png');
 
 }
+
+
+
+
 
 /*
 .request-invite-big {

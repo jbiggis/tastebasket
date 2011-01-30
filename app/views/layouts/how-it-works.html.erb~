@@ -22,10 +22,11 @@
 
 	<div id="notice"><%= notice %> </div>
 	<div id ="content">
-		<header>
+		<div id='header'>
 			<%= image_tag 'logo.png', :class => 'logo' %>
 			<%= render 'shared/site_nav_how_it_works' %>
-		</header>
+		</div>
+		<div id='hiw'>
 		<div id='container-top'></div>
 		
 		<div id='container-middle'>
@@ -37,6 +38,6 @@
 
 	
 	<%=render 'shared/footer'%>
-	
+</div>
 </body>
 </html>

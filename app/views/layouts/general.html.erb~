@@ -7,9 +7,42 @@
 
   <%= javascript_include_tag 'jquery-1.4.4' %>
   <%= javascript_include_tag 'facebox' %>
+     <%= javascript_include_tag 'scrollTo' %>
   <%= stylesheet_link_tag 'facebox', :media => 'screen' %>
 
   <%= csrf_meta_tag %>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".bacon-crisp").hover(function(){
+	  $(this).toggleClass("bacon");
+	  $(".seeded-crisps").css("border","1px solid #9b0002");
+	  }, function(){
+	  $(this).toggleClass("bacon");
+	  	  $(".seeded-crisps").css("border","1px solid transparent");
+  });
+
+    $(".seeded-crisps").hover(function(){
+	  $(".bacon-crisp").toggleClass("bacon");
+	  $(this).css("border","1px solid #9b0002");
+	  }, function(){
+	  $(".bacon-crisp").toggleClass("bacon");
+	  	  $(this).css("border","1px solid transparent");
+  });
+
+
+
+
+
+
+
+});
+
+
+
+</script>
+
 
 
 <meta property="og:title" content="YOmama" />
@@ -22,10 +55,10 @@
 
 	<div id="notice"><%= notice %> </div>
 	<div id ="content">
-		<header>
+		<div id='header'>
 			<%= image_tag 'logo.png', :class => 'logo' %>
 			<%= render 'shared/site_nav_general' %>
-		</header>
+		</div>
 		<div id='container-top'></div>
 		
 		<div id='container-middle'>

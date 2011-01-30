@@ -24,5 +24,18 @@ height:100px;
 .hiw .request-invite-big {
 margin:20px 0 0 -85px;
 
+}
+
+#hiw p{
+font-family:arabic;
+font-size:18pt;
+line-height:18pt;
+}
+
+
+#hiw h3 {
+font-family:arabic;
+font-size:22pt;
+color:#9b0002;
 
 }

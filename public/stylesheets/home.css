@@ -1,0 +1,146 @@
+#home #container-top {
+background: url('../images/container-top.png') no-repeat;
+width:966px;
+height:52px;
+margin-bottom:0;
+z-index:1;
+position:relative;
+}
+
+#home #container-middle {
+background: url('../images/container-middle.png') repeat-y;
+width:906px;
+margin:0;
+padding:0 30px 30px 30px;
+}
+
+#home #container-middle h1{
+margin:0;
+padding:0;
+}
+
+
+#home #container-bottom {
+background: url('../images/container-bottom.png') repeat-y;
+width:966px;
+height:44px;
+margin-top:0;
+}
+
+#box-top-half {
+height:317px;
+width:966px;
+}
+
+#top-left {
+height:317px;
+width:528px;
+float:left;
+text-align:center;
+
+}
+
+#top-left p {
+color: #78781b;
+font-family:arabic;
+font-size:23pt;
+line-height:25pt;
+
+}
+
+#top-right {
+height:317px;
+width:438px;
+float:left;
+position:relative;
+
+}
+
+.food-basket {
+margin:20px 40px 0 0;
+
+}
+
+#box-bottom-half {
+height:287px;
+width:966px;
+background: url('../images/product-pics-background.png') no-repeat;
+background-position: 20px 30px;
+position:relative;
+margin-left:-30px;
+margin-top:20px;
+}
+
+.peak {
+position:absolute;
+left:30px;
+top:0px;
+}
+
+.glasgow-cookies {
+margin:36px 0 0 40px;
+border:1px solid transparent;
+}
+
+.seeded-crisps {
+margin:36px 0 0 30px;
+border:1px solid transparent;
+}
+
+.karmic-krunch {
+margin:34px 0 0 28px;
+border:1px solid transparent;
+}
+
+.seventh-heaven {
+margin:35px 0 0 29px;
+border:1px solid transparent;
+}
+
+.garden-herb {
+margin:35px 0 0 29px;
+border:1px solid transparent;
+}
+
+
+
+.intro-text {
+margin-top:10px;
+}
+
+.request-invite-big {
+background: url('../images/request-invite-button.png');
+width:240px;
+height:72px;
+padding-top:15px;
+text-align:center;
+margin: 4px 0 0 140px;
+float:left;
+}
+
+.request-invite-big a{
+font-size:45px;
+color:transparent;
+
+}
+
+
+
+#home-info p {
+font-family:arabic;
+font-size: 18pt;
+line-height:18pt;
+}
+
+#home-info h3 {
+font-family:arabic;
+font-weight:bold;
+font-size: 22pt;
+color:#9b0002;
+}
+
+#read-more {
+color:#9b0002;
+font-family:arabic;
+font-size:18pt;
+}

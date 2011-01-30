@@ -1,12 +1,12 @@
 class PublicController < ApplicationController
 
-	layout "general", :except => [:home]
+	layout "general"
 
 
   def home
   
    respond_to do |format|
-      format.html {render :layout => "application"}
+      format.html #{render :layout => "application"}
       format.xml  { render :xml => @subscription }
       format.js { render_to_facebox }
 
@@ -15,7 +15,7 @@ class PublicController < ApplicationController
   end
 
   def how_it_works
-	render :layout => "how_it_works"
+	render :layout => "how-it-works"
   end
 
   def recent_baskets

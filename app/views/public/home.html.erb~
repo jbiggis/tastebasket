@@ -1,13 +1,8 @@
-	<%= render 'shared/site_nav_home' %>
-</div>
 
 
 <script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" 
         type="text/javascript">
 </script>
-
-
-<div id='container'>
 
 <!--
 <a name="fb_share" type="button" share_url= tastebasket.com></a>
@@ -18,7 +13,19 @@
 <div id='box-top-half'>
 	
 	<div id='top-left'>
-		<%= image_tag 'intro-text.png', :class => 'intro-text'%>
+		<%# image_tag 'intro-text.png', :class => 'intro-text'%>
+		<p>“The Taste Basket” offers a tasting experience of extraordinary foods crafted by passionate food artisans and purveyed goodies from around the world.</p>
+
+			
+		<a id="read-more" href="#more">Read More</a>
+
+	<script>
+		$('#read-more').localScroll({
+target:'#more'
+
+});
+</script>
+
 <div class="request-invite-big"><%= facebox_link_to 'MMMMMM MMMMMM', :url => new_subscription_url %></div>
 
 <div id='share'>
@@ -38,7 +45,7 @@
 
 <div id='top-right'>
 	<%= image_tag 'food-basket.png', :class => 'food-basket'%>
-	<div class='bacon-crisp'><%= image_tag 'bacon-crisp-opaque.png' %></div>
+	<div class='bacon-crisp'></div>
 
 
 
@@ -57,6 +64,31 @@
 
 
 </div>
+
+<a id='more' href="#"></a>
+<div id="home-info">	
+<p>
+Each month, “Taste Basket” provides its members with a curated selection of tasty gourmet foods like snacks, condiments, spices, candies, jams, sauces, drinks, cheeses, prepared foods, and much more. Delivered conveniently to your home, members receive a hand-picked Tasting Basket that’s different and unique each month that can be eaten right away or used in your next meal. </p>
+
+<p>Our philosophy is simple: we offer food products we’d want to buy, eat, taste, smell, and share with our friends. It’s got to be a great product and experience; we want “Taste Basket” to be a tasting addiction you can feel good about and look forward to. Here’s why you should sign up for our private trial:</p>
+
+<h3>Hand-Picked Selection</h3>
+<p>We select five or more products we love and hand-pack them into one Tasting Basket delivered right to your door. We only choose products we would want to taste and eat, it’s got to be a great product that will fuel your tasting addiction. 100% free shipping and satisfaction guarantee!<p>
+
+<h3>A Tasting Community</h3>
+<p>"Taste Basket” is a tasting community of foodies, food lovers, and food purveyors that discover traditional and innovative foods not typically found in your grocery store. Together, we’ll discover a world of flavour each month and share our findings, reviews, and opinions on our “Taste Basket” website.</p>
+
+<h3>Tasty Discovery</h3>
+<p>You’ll get to discover 5 or more new food products each month. You might not know exactly what you’ll find, but the excitement and fun comes from the anticipation of discovering exclusive artisanal and unique international foods.</p>
+
+<h3>Eliminate Confusion</h3>
+<p>As strong supporters of food artisans and small independent food businesses, it becomes difficult to choose amongst so much good stuff! We eliminate the decision process and provide you with a yummy Taste Basket each month.</p>
+
+<h3>Supporting Independent Small Businesses</h3>
+<p>“Taste Basket” celebrate specialty artisanal foods prepared by independent, small-scale food artisans. Our mission is to support food artisans by making their gourmet foods accessible to everyone, helping food artisans connect with everyday consumers, and to grow their business.</p>
+
+<h3>Online Food Marketplace</h3>
+<p>Like what you found in your Taste Basket? You can also buy them individually in our online food marketplace. You can even use “Taste Basket” as your online shopping destination for artisanal foods and goodies from around the world.</p>
+
 </div>
-
-
+<div id="hey"></div>
