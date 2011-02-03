@@ -1,113 +1,64 @@
-#home #container-top {
-background: url('../images/container-top.png') no-repeat;
-width:966px;
-height:52px;
-margin-bottom:0;
-z-index:1;
-position:relative;
+#home #taste-basket-tab {
+background: url('../images/taste-basket-tab.png') no-repeat;
+height:29px;
+
 }
 
-#home #container-middle {
-background: url('../images/container-middle.png') repeat-y;
-width:906px;
-margin:0;
-padding:0 30px 30px 30px;
-}
-
-#home #container-middle h1{
-margin:0;
-padding:0;
-}
-
-
-#home #container-bottom {
-background: url('../images/container-bottom.png') repeat-y;
-width:966px;
-height:44px;
-margin-top:0;
-}
-
-#box-top-half {
-height:317px;
-width:966px;
+#box {
+height:480px;
+width:960px;
+margin:0 auto 0 auto;
 }
 
 #top-left {
-height:317px;
-width:528px;
+height:480px;
+width:360px;
 float:left;
 text-align:center;
-
+position:relative;
 }
 
-#top-left p {
-color: #78781b;
+
+#intro-text {
+width:360px;
+color:black;
 font-family:arabic;
-font-size:23pt;
-line-height:25pt;
+font-size:30px;
+line-height:30px;
+margin:60px auto 0 auto;
 
 }
 
-#top-right {
-height:317px;
-width:438px;
-float:left;
+#learn-more {
+height:40px;
+margin:20px auto 10px auto;
+height:29px;
+width:98px;
+background: url('../images/learn-more-tab.png') no-repeat;
+background-position: 0 -30px;
+}
+
+#learn-more:hover {
+height:40px;
+margin:20px auto 10px auto;
+height:29px;
+width:98px;
+background: url('../images/learn-more-tab.png') no-repeat;
+
+}
+
+#read-more {
+color:#6e3e5b;
 position:relative;
 
 }
 
-.food-basket {
-margin:20px 40px 0 0;
+#box .request-invite {
+margin-top:30px;
 
 }
 
-#box-bottom-half {
-height:287px;
-width:966px;
-background: url('../images/product-pics-background.png') no-repeat;
-background-position: 20px 30px;
-position:relative;
-margin-left:-30px;
-margin-top:20px;
-}
-
-.peak {
-position:absolute;
-left:30px;
-top:0px;
-}
-
-.glasgow-cookies {
-margin:36px 0 0 40px;
-border:1px solid transparent;
-}
-
-.seeded-crisps {
-margin:36px 0 0 30px;
-border:1px solid transparent;
-}
-
-.karmic-krunch {
-margin:34px 0 0 28px;
-border:1px solid transparent;
-}
-
-.seventh-heaven {
-margin:35px 0 0 29px;
-border:1px solid transparent;
-}
-
-.garden-herb {
-margin:35px 0 0 29px;
-border:1px solid transparent;
-}
-
-
-
-.intro-text {
-margin-top:10px;
-}
-
+/*
 .request-invite-big {
 background: url('../images/request-invite-button.png');
 width:240px;
@@ -123,9 +74,42 @@ font-size:45px;
 color:transparent;
 
 }
+*/
 
 
 
+
+
+#top-right {
+height:317px;
+width:538px;
+float:left;
+position:relative;
+
+}
+
+.food-basket {
+margin:20px 0 0 0;
+height:390px;
+float:right;
+
+}
+
+#box-bottom-half {
+height:287px;
+width:966px;
+background: url('../images/product-pics-background.png') no-repeat;
+background-position: 20px 30px;
+position:relative;
+margin-left:-30px;
+margin-top:20px;
+}
+
+
+
+
+
+/*
 #home-info p {
 font-family:arabic;
 font-size: 18pt;
@@ -138,9 +122,113 @@ font-weight:bold;
 font-size: 22pt;
 color:#9b0002;
 }
+*/
 
-#read-more {
-color:#9b0002;
-font-family:arabic;
-font-size:18pt;
+
+
+#separator {
+height:20px;
+margin:0;
+background:url('../images/separator.png') repeat-x;
+
 }
+
+#bottom-half {
+background: #6e3e5b;
+margin:0;
+padding:40px 0 20px 0;
+color:white;
+
+}
+
+#bottom-half h2{
+
+font-family:helvetica-textbook, arial, sans-serif;
+font-size:36px;
+line-height:60px;
+}
+
+#bottom-half h3{
+
+font-family:helvetica-textbook, arial, sans-serif;
+font-size:24px;
+}
+
+#bottom-half p {
+font-family: arial, sans-serif;
+font-size:18px;
+line-height:30pt;
+}
+
+#bottom-half .content {
+margin:0 auto 0 auto;
+width:960px;
+position:relative;
+}
+
+#action-box {
+width:720px;
+height:300px;
+margin:90px auto 0 auto;
+position:relative;
+}
+
+#learn-how-it-works-tab {
+background: url('../images/learn-how-it-works-tab.png') no-repeat;
+height:29px;
+width:145px;
+margin:0 auto 0 auto;
+}
+
+#learn-how-it-works-tab:hover {
+background: url('../images/learn-how-it-works-tab.png') no-repeat;
+height:29px;
+width:145px;
+margin:0 auto 0 auto;
+background-position: 0 -30px;
+}
+
+#action-box #lower {
+height:200px;
+width:624px;
+margin:30px auto 0 auto;
+}
+
+#bottom-half .request-invite {
+float:left;
+}
+
+#share {
+background: url('../images/share-with-friends.png');
+width:306px;
+height:108px;
+float:left;
+text-align:center;
+position:relative;
+margin-left:10px;
+
+}
+
+
+.addthis_toolbox {
+margin:60px auto 10px auto;
+width:160px;
+}
+
+.fbook {
+color:white;
+
+}
+.fbook iframe .connect_widget_vertical_center {
+overflow:hidden;
+visibility:hidden;
+width:30px;
+}
+
+
+#footer ul {
+margin:0;
+}
+
+
+

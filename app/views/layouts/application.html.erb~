@@ -66,22 +66,22 @@ return false;
 
 </head>
 <body>
-
-	<div id="notice"><%= notice %> </div>
-	<div id ="content">
-		<div id='header'>
-			<div class="logo">THE TASTE BASKET</div>
-			<% image_tag 'logo.png', :class => 'logo' %>
-	<%= render 'shared/site_nav_home' %>
-	</div>
 	<div id='home'>
-<div id='container-top'></div>
+	<div id="notice"><%= notice %> </div>
 
-<div id='container-middle'>
+		<div id='header'>
+			<div class="logo">The Taste Basket</div>
+			<%# image_tag 'logo.png', :class => 'logo' %>
+			<%= render 'shared/site_nav_home' %>
+		</div>
+
+
+
+
 <%= yield %>
-	</div>
-	<div id='container-bottom'></div>
-</div>
+
+
+
 	<%=render 'shared/footer'%>
 </div>	
 </body>

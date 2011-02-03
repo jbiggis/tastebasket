@@ -1,4 +1,4 @@
-body { background: url('../images/wood.png'); background-color:  #f4f1ce;color: #333;; padding-bottom:40px; margin-bottom:0;}
+body { background: url('../images/gradient-bg.png') repeat-x; background-position: 0 270px;background-color:  #f3f3f3;color: #333; margin:0; border-top:5px #6e3e5b solid;}
 /*#f4f1ce; #871E31; #290B1C; #6B0C22;*/
 
 body, p, ol, ul, td {
@@ -68,9 +68,10 @@ div.field, div.actions {
 
 #footer {
 height:80px;
-width:960px;
-margin:10px auto 10px auto;
+
+
 text-align:center;
+background: #6e3e5b;
 }
 
 #footer a, #footer a:visited, #footer a:hover {
@@ -90,7 +91,7 @@ font-size:12px;
 #footer li {
 float:left;
 margin-right:10px;
-color:#993;
+color:white;
 }
 
 #copyright {

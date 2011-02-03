@@ -10,79 +10,103 @@
 <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://tastebasket.com" data-text="Check out an awesome food tasting experience at Tastebasket.com!" data-count="none" data-via="tastebasket">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 -->
 
-<div id='box-top-half'>
+<div id='box'>
 	
 	<div id='top-left'>
 		<%# image_tag 'intro-text.png', :class => 'intro-text'%>
-		<p>“The Taste Basket” offers a tasting experience of extraordinary foods crafted by passionate food artisans and purveyed goodies from around the world.</p>
+		<p id='intro-text'>“The Taste Basket” offers a tasting experience of extraordinary foods crafted by passionate food artisans and purveyed goodies from around the world.</p>
 
 			
-		<a id="read-more" href="#more">Read More</a>
+		<a id="read-more" href="#more"><div id="learn-more"></div></a>
+
+		<% request_invite = image_tag 'request-invite.png'%>
+		<div class="request-invite"><%= facebox_link_to request_invite, :url => new_subscription_url %></div>
+
+	
+	
+	</div>
 
 
-<div class="request-invite-big"><%= facebox_link_to 'MMMMMM MMMMMM', :url => new_subscription_url %></div>
+	
+	<div id='top-right'>
+	
+		<%= image_tag 'products-pic.png', :class => 'food-basket'%>
+		
+		<div class='bacon-crisp'></div>
 
-<div id='share'>
-<!-- AddThis Button BEGIN -->
-<div class="addthis_toolbox addthis_default_style addthis_32x32_style" >
-	<a class="addthis_button_facebook" addthis:url="http://tastebasket.com"></a>
-	<a class="addthis_button_email"></a>
-	<a class="addthis_button_twitter" addthis:url="http://tastebasket.com" addthis:title="Unique artisanal food products delivered once a month." ></a>
-	<!--	<a class="addthis_button_compact"></a> -->
-</div>
-<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4d314e7d3d35b074"></script>
-<!-- AddThis Button END -->
-<div class='fbook'><%= facebook_like %></div>
-
-</div>
-</div>
-
-<div id='top-right'>
-	<%= image_tag 'food-basket.png', :class => 'food-basket'%>
-	<div class='bacon-crisp'></div>
-
+	
+	</div>
 
 
 </div>
 
-
-</div>
-
+<!--
 <div id='box-bottom-half'>
-	<%= image_tag 'peak-into-next-months-basket.png', :class => 'peak'%>
-	<%= image_tag 'glasgow-cookies.png', :class => 'glasgow-cookies'%>
-	<%= image_tag 'seeded-crisps.png', :class => 'seeded-crisps'%>
-	<%= image_tag 'karmic-krunch.png', :class => 'karmic-krunch'%>
-	<%= image_tag 'seventh-heaven.png', :class => 'seventh-heaven'%>
-	<%= image_tag 'garden-herb.png', :class => 'garden-herb'%>
-
 
 </div>
+-->
+
+<div id='separator'></div>
+
 
 <a id='more' href="#"></a>
-<div id="home-info">	
-<p>
+<div id="bottom-half">	
+	<div class='content'>
+
+		<h2>What is the 'Taste Basket'?</h2>
+	<p>
 Each month, “Taste Basket” provides its members with a curated selection of tasty gourmet foods like snacks, condiments, spices, candies, jams, sauces, drinks, cheeses, prepared foods, and much more. Delivered conveniently to your home, members receive a hand-picked Tasting Basket that’s different and unique each month that can be eaten right away or used in your next meal. </p>
 
 <p>Our philosophy is simple: we offer food products we’d want to buy, eat, taste, smell, and share with our friends. It’s got to be a great product and experience; we want “Taste Basket” to be a tasting addiction you can feel good about and look forward to. Here’s why you should sign up for our private trial:</p>
-
+<br/>
 <h3>Hand-Picked Selection</h3>
 <p>We select five or more products we love and hand-pack them into one Tasting Basket delivered right to your door. We only choose products we would want to taste and eat, it’s got to be a great product that will fuel your tasting addiction. 100% free shipping and satisfaction guarantee!<p>
-
+<br/>
 <h3>A Tasting Community</h3>
 <p>"Taste Basket” is a tasting community of foodies, food lovers, and food purveyors that discover traditional and innovative foods not typically found in your grocery store. Together, we’ll discover a world of flavour each month and share our findings, reviews, and opinions on our “Taste Basket” website.</p>
-
+<br/>
 <h3>Tasty Discovery</h3>
 <p>You’ll get to discover 5 or more new food products each month. You might not know exactly what you’ll find, but the excitement and fun comes from the anticipation of discovering exclusive artisanal and unique international foods.</p>
-
+<br/>
 <h3>Eliminate Confusion</h3>
 <p>As strong supporters of food artisans and small independent food businesses, it becomes difficult to choose amongst so much good stuff! We eliminate the decision process and provide you with a yummy Taste Basket each month.</p>
-
+<br/>
 <h3>Supporting Independent Small Businesses</h3>
 <p>“Taste Basket” celebrate specialty artisanal foods prepared by independent, small-scale food artisans. Our mission is to support food artisans by making their gourmet foods accessible to everyone, helping food artisans connect with everyday consumers, and to grow their business.</p>
-
+<br/>
 <h3>Online Food Marketplace</h3>
 <p>Like what you found in your Taste Basket? You can also buy them individually in our online food marketplace. You can even use “Taste Basket” as your online shopping destination for artisanal foods and goodies from around the world.</p>
 
+
+<div id='action-box'>
+<a href='how-it-works'><div id='learn-how-it-works-tab'></div></a>
+
+
+
+
+<div id='lower'>
+<div class="request-invite"><%= facebox_link_to request_invite, :url => new_subscription_url %></div>
+
+
+
+
+	<div id='share'>
+
+		<div class="addthis_toolbox addthis_default_style addthis_32x32_style" >
+				<a class="addthis_button_facebook"></a>
+				<a class="addthis_button_email"></a>
+				<a class="addthis_button_twitter" addthis:url="http://tastebasket.com" addthis:title="Unique artisanal food products delivered once a month." ></a>
+			<a class="addthis_button_compact"></a> 
+			</div>
+			
+			<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4d314e7d3d35b074"></script>
+			
+			<!--	<div class='fbook'><%= facebook_like %></div> -->
+
+	
+		</div>
+
 </div>
-<div id="hey"></div>
+</div>
+</div>
+</div>
