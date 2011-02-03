@@ -168,7 +168,7 @@ position:relative;
 
 #action-box {
 width:720px;
-height:300px;
+height:260px;
 margin:90px auto 0 auto;
 position:relative;
 }
@@ -189,7 +189,7 @@ background-position: 0 -30px;
 }
 
 #action-box #lower {
-height:200px;
+height:140px;
 width:624px;
 margin:30px auto 0 auto;
 }

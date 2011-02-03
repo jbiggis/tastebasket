@@ -1,4 +1,4 @@
-body { background: url('../images/gradient-bg.png') repeat-x; background-position: 0 270px;background-color:  #f3f3f3;color: #333; margin:0; border-top:5px #6e3e5b solid;}
+body { background: url('../images/gradient-bg.png') repeat-x; background-position: 0 270px;background-color:  #f3f3f3;color: white; margin:0; border-top:5px #6e3e5b solid;}
 /*#f4f1ce; #871E31; #290B1C; #6B0C22;*/
 
 body, p, ol, ul, td {
@@ -75,7 +75,7 @@ background: #6e3e5b;
 }
 
 #footer a, #footer a:visited, #footer a:hover {
-color: #993;
+color: white;
 }
 
 #footer ul {
