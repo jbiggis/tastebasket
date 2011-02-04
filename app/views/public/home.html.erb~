@@ -19,7 +19,7 @@
 			
 		<a id="read-more" href="#more"><div id="learn-more"></div></a>
 
-		<% request_invite = image_tag 'request-invite.png'%>
+
 		<div class="request-invite"><%= facebox_link_to request_invite, :url => new_subscription_url %></div>
 
 	
@@ -89,22 +89,6 @@ Each month, “Taste Basket” provides its members with a curated selection of 
 
 
 
-
-	<div id='share'>
-
-		<div class="addthis_toolbox addthis_default_style addthis_32x32_style" >
-				<a class="addthis_button_facebook"></a>
-				<a class="addthis_button_email"></a>
-				<a class="addthis_button_twitter" addthis:url="http://tastebasket.com" addthis:title="Unique artisanal food products delivered once a month." ></a>
-			<a class="addthis_button_compact"></a> 
-			</div>
-			
-			<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4d314e7d3d35b074"></script>
-			
-			<div class='fbook'><%= facebook_like %></div>
-
-	
-		</div>
 
 </div>
 </div>

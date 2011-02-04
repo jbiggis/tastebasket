@@ -72,11 +72,11 @@ return false;
 		<div id='header'>
 			<div class="logo">The Taste Basket</div>
 			<%# image_tag 'logo.png', :class => 'logo' %>
-			<%= render 'shared/site_nav_home' %>
+			<div id="site-nav"><%= render 'shared/site_nav_home' %></div>
 		</div>
 
 
-
+		<% request_invite = image_tag 'request-invite.png'%>
 
 <%= yield %>
 

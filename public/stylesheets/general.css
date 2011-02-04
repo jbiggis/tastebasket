@@ -4,7 +4,7 @@
 }
 
 #site-nav ul {
-margin:60px 0 0 0;
+margin:40px 0 0 0;
 list-style:none;
 float:right;
 width:390px;
@@ -82,16 +82,17 @@ padding:30px;
 
 }
 
-#container-middle h1{
-margin:0;
-padding:0;
+#back-to-home-tab {
+background: url('../images/back-to-home-tab.png') no-repeat;
+height:29px;
+width:128px;
+margin:0 auto 0 auto;
 }
 
-
-#container-bottom {
-background: url('../images/container-bottom.png') repeat-y;
-width:966px;
-height:44px;
-margin-top:0;
+#back-to-home-tab:hover {
+background: url('../images/back-to-home-tab.png') no-repeat;
+height:29px;
+width:128px;
+margin:0 auto 0 auto;
+background-position: 0 -30px;
 }
-

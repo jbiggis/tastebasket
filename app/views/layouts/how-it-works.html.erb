@@ -19,25 +19,24 @@
 
 </head>
 <body>
-
-	<div id="notice"><%= notice %> </div>
-	<div id ="content">
-		<div id='header'>
-			<%= image_tag 'logo.png', :class => 'logo' %>
-			<%= render 'shared/site_nav_how_it_works' %>
-		</div>
 		<div id='hiw'>
-		<div id='container-top'></div>
-		
-		<div id='container-middle'>
-			<%= yield %>
+	<div id="notice"><%= notice %> </div>
+
+		<div id='header'>
+					<div class="logo">The Taste Basket</div>
+			<div id="site-nav"><%= render 'shared/site_nav_home' %></div>>
 		</div>
 
-		<div id='container-bottom'></div>
-	</div>
+<div id='separator'></div>
+<div id="bottom-half">
+	<div class='content'>
+			<%= yield %>
 
+		</div>
+	</div>
+</div>
 	
 	<%=render 'shared/footer'%>
-	</div>
+
 </body>
 </html>

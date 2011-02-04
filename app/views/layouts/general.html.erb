@@ -54,18 +54,17 @@ $(document).ready(function(){
 <body>
 
 	<div id="notice"><%= notice %> </div>
-	<div id ="content">
+
 		<div id='header'>
-			<%= image_tag 'logo.png', :class => 'logo' %>
-			<%= render 'shared/site_nav_general' %>
+					<div class="logo">The Taste Basket</div>
+			<div id="site-nav"><%= render 'shared/site_nav_home' %></div>>
 		</div>
-		<div id='container-top'></div>
-		
-		<div id='container-middle'>
+	<div id='separator'></div>
+<div id="bottom-half">
+	<div class='content'>
 			<%= yield %>
 		</div>
 
-		<div id='container-bottom'></div>
 	</div>
 
 	
