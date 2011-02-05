@@ -1,6 +1,6 @@
-	<ul>  
+<ul>  
 
 	<li>	<a href='/'><div id='taste-basket-tab'></div></a></li>
 	<li>	<a href='how-it-works'><div id='how-it-works-tab'></div></a></li>
 	<li>	<a href='about-us'><div id='about-us-tab'></div></a></li>
-    </ul>  
+</ul>  

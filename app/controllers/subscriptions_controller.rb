@@ -27,7 +27,7 @@ class SubscriptionsController < ApplicationController
     @subscription = Subscription.new
 
     respond_to do |format|
-      format.html # new.html.erb
+      format.html {render :layout => 'general'}
       format.xml  { render :xml => @subscription }
       format.js { render_to_facebox }
     end

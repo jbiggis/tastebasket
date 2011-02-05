@@ -29,9 +29,15 @@ margin:60px auto 0 auto;
 
 }
 
+#info-box {
+margin:20px auto 10px auto;
+width:245px;
+height:30px;
+}
+
 #learn-more {
 height:40px;
-margin:20px auto 10px auto;
+float:left;
 height:29px;
 width:98px;
 background: url('../images/learn-more-tab.png') no-repeat;
@@ -40,7 +46,7 @@ background-position: 0 -30px;
 
 #learn-more:hover {
 height:40px;
-margin:20px auto 10px auto;
+
 height:29px;
 width:98px;
 background: url('../images/learn-more-tab.png') no-repeat;
@@ -51,6 +57,20 @@ background: url('../images/learn-more-tab.png') no-repeat;
 color:#6e3e5b;
 position:relative;
 
+}
+
+#why-private-trial-tab {
+background: url('../images/why-private-trial-tab.png') no-repeat;
+background-position: 0 -30px;
+height:29px;
+width:135px;
+float:right;
+}
+
+#why-private-trial-tab:hover {
+background: url('../images/why-private-trial-tab.png') no-repeat;
+height:29px;
+width:135px;
 }
 
 #box .request-invite {
@@ -152,6 +172,7 @@ line-height:60px;
 
 font-family:helvetica-textbook, arial, sans-serif;
 font-size:24px;
+line-height:30px;
 }
 
 #bottom-half h4{
@@ -173,10 +194,11 @@ position:relative;
 }
 
 #action-box {
-width:720px;
+width:420px;
 height:260px;
 margin:90px auto 0 auto;
 position:relative;
+
 }
 
 #learn-how-it-works-tab {
@@ -196,12 +218,14 @@ background-position: 0 -30px;
 
 #action-box #lower {
 height:140px;
-width:624px;
+width:420px;
 margin:30px auto 0 auto;
 }
 
 #bottom-half .request-invite {
-float:left;
+margin-left:auto;
+margin-right:auto;
+width:308px;
 }
 
 #share {
@@ -221,14 +245,31 @@ margin:60px auto 10px auto;
 width:160px;
 }
 
-.fbook {
-color:white;
+.share-btns {
+margin:30px 0 0 120px;
 
 }
-.fbook iframe .connect_widget_vertical_center {
+
+#twitter {
+float:left;
+}
+
+#fbook {
+float:left;
+color:white;
+position:0 20px;
+width:101px;
+height:30px;
 overflow:hidden;
-visibility:hidden;
-width:30px;
+margin:-3px 0 0 6px;
+
+
+}
+
+}
+.fbook iframe {
+
+margin-top:-50px;
 }
 
 

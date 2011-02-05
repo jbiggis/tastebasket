@@ -1,3 +1,10 @@
+#hiw #how-it-works-tab {
+background: url('../images/how-it-works-tab.png') no-repeat;
+height:29px;
+width:110px;
+}
+
+
 #learn-about-us-tab {
 background: url('../images/learn-about-us-tab.png') no-repeat;
 height:29px;
@@ -9,6 +16,21 @@ margin:0 auto 0 auto;
 background: url('../images/learn-about-us-tab.png') no-repeat;
 height:29px;
 width:128px;
+margin:0 auto 0 auto;
+background-position: 0 -30px;
+}
+
+#meet-the-team-tab-2 {
+background: url('../images/meet-the-team-tab-2.png') no-repeat;
+height:29px;
+width:118px;
+margin:0 auto 0 auto;
+}
+
+#meet-the-team-tab-2:hover {
+background: url('../images/meet-the-team-tab-2.png') no-repeat;
+height:29px;
+width:118px;
 margin:0 auto 0 auto;
 background-position: 0 -30px;
 }

@@ -1,3 +1,4 @@
+<div id='sub'>
 <%= form_for(@subscription) do |f| %>
   <% if @subscription.errors.any? %>
     <div id="error_explanation">
@@ -12,7 +13,6 @@
   <% end %>
 
   
-<%= facebox_link_to 'Request Invite', :url => root_path %>
 
   <div class="field">
     <%= f.label :name %><br />
@@ -34,3 +34,4 @@
     <%= f.submit "Request Invite" %>
   </div>
 <% end %>
+</div>

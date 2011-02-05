@@ -1,7 +1,5 @@
 
-<div id='separator'></div>
-<div id="bottom-half">
-	<div class='content'>
+
 <h2>How it works</h2>
 
 
@@ -46,12 +44,12 @@
 </br>
 <div id="action-box">
 
-	<a href='about-us'><div id='learn-about-us-tab'></div></a>
+	<a href='about-us'><div id='meet-the-team-tab-2'></div></a>
 	<div id='lower'>
 	<div class='request-invite'><%= facebox_link_to request_invite, :url => new_subscription_url %></div>
 	
-<%= render 'shared/sm-buttons' %>
+<%# render 'shared/sm-buttons' %>
 </div>
-</div>
+
 </div>
 </div>

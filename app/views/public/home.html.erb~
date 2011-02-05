@@ -16,11 +16,14 @@
 		<%# image_tag 'intro-text.png', :class => 'intro-text'%>
 		<p id='intro-text'>“The Taste Basket” offers a tasting experience of extraordinary foods crafted by passionate food artisans and purveyed goodies from around the world.</p>
 
-			
+		<div id='info-box'>	
 		<a id="read-more" href="#more"><div id="learn-more"></div></a>
-
+		<a href="why-private-trial"><div id="why-private-trial-tab"></div></a>
+	</div>
 
 		<div class="request-invite"><%= facebox_link_to request_invite, :url => new_subscription_url %></div>
+
+		<%= render 'shared/share_btns'%>
 
 	
 	
@@ -88,7 +91,7 @@ Each month, “Taste Basket” provides its members with a curated selection of 
 <div class="request-invite"><%= facebox_link_to request_invite, :url => new_subscription_url %></div>
 
 
-
+<%# render 'shared/sm-buttons' %>
 
 </div>
 </div>
