@@ -44,7 +44,7 @@ class SubscriptionsController < ApplicationController
     @subscription = Subscription.new(params[:subscription])
 
       if @subscription.save
-#	ThankYouMailer.thank_you_email(@subscription).deliver
+	ThankYouMailer.thank_you_email(@subscription).deliver
         redirect_to(root_path)
         
       else

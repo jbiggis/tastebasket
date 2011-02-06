@@ -1,7 +1,7 @@
 
 class ThankYouMailer < ActionMailer::Base
 	    default :from =>"jscchiu@gmail.com"
-def send_thank_you_email(subscriber)
+def thank_you_email(subscriber)
 
 @subscriber = subscriber
 
