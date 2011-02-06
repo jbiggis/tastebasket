@@ -76,7 +76,7 @@ return false;
 		</div>
 
 
-		<% request_invite = image_tag 'request-invite.png'%>
+
 
 <%= yield %>
 

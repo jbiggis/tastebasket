@@ -8,7 +8,7 @@ class PublicController < ApplicationController
    respond_to do |format|
       format.html {render :layout => "application"}
       format.xml  { render :xml => @subscription }
-    
+          format.js { render_to_facebox }
 
     end 
     
@@ -43,7 +43,15 @@ class PublicController < ApplicationController
   def contact_us
   end
 
- 
+ def why_private_trial
+   respond_to do |format|
+      format.html
+      format.xml  { render :xml => @subscription }
+          format.js { render_to_facebox }
+
+    end 
+ end
+
 
 
 

@@ -19,7 +19,10 @@ Tastebasket::Application.routes.draw do
   
   get '/shipping-and-returns' => 'public#shipping_and_returns', :as => :shipping_returns
 
-  get "contact-us" => 'public#recent_baskets', :as => :contact_us
+  get "contact-us" => 'public#contact_us', :as => :contact_us
+
+  get "why-private-trial" => 'public#why_private_trial', :as => :why_private_trial
+
 
 
 

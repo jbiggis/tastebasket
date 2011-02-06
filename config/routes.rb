@@ -21,6 +21,9 @@ Tastebasket::Application.routes.draw do
 
   get "contact-us" => 'public#contact_us', :as => :contact_us
 
+  match "why-private-trial" => 'public#why_private_trial', :as => :why_private_trial
+
+
 
 
 match '/subscriptions/new' => 'subscriptions#new'
