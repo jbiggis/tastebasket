@@ -18,7 +18,7 @@
 
 		<div id='info-box'>	
 		<a id="read-more" href="#more"><div id="learn-more"></div></a>
-		<a href="#" onclick="jQuery.facebox(function(){ new Ajax.Request('http://localhost:3000/why-private-trial', {asynchronous:true, evalScripts:true, parameters:'authenticity_token=' + encodeURIComponent('sxqY/3GHEI9caFHe0y78dqUI2a5jLNVBE0hDOari2Ps=')}) }); return false;"><div id="why-private-trial-tab"></div></a>
+		<a href="#" onclick="jQuery.facebox(function(){ new Ajax.Request('<%= why_private_trial_url%>', {asynchronous:true, evalScripts:true, parameters:'authenticity_token=' + encodeURIComponent('sxqY/3GHEI9caFHe0y78dqUI2a5jLNVBE0hDOari2Ps=')}) }); return false;"><div id="why-private-trial-tab"></div></a>
 	</div>
 
 		<div class="request-invite"><%= facebox_link_to request_invite, :url => new_subscription_url %></div>
